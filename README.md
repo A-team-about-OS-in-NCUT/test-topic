@@ -37,7 +37,7 @@ scheduler(void)
 
 
 选项：
-A.release(&ptable.lock);
+A.release(&ptable.lock);'\n'
 B.proc = p;
 C.acquire(&ptable.lock);
 D.swtch(&cpu->scheduler, proc->context);
