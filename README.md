@@ -35,12 +35,20 @@ scheduler(void)
 }
 //代码结束
 
-
+//
 选项：
-A.release(&ptable.lock);'\n'
+A.release(&ptable.lock);
+
 B.proc = p;
+
 C.acquire(&ptable.lock);
+
 D.swtch(&cpu->scheduler, proc->context);
+
 E.proc = 0;
+
 F.acquire(ptable.lock);
+
 G.proc++;
+
+//
