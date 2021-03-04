@@ -37,6 +37,7 @@ scheduler(void)
 
 //
 选项：
+
 A.release(&ptable.lock);
 
 B.proc = p;
